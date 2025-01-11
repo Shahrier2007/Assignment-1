@@ -15,6 +15,13 @@
 }
 .text-2{
     color: #0E0E0E;
+    
+}
+.btn-text{
+        color: white;
+}
+body{
+    max-width: 1280px;
 }
 /* header */
 .banner{
@@ -45,6 +52,59 @@
 .banner-button{
     background-color: #006A50;
     font-size: 18px;
-    color: #FFFFFF;
     padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+}
+/* vision */
+.vision-title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.vision-text{
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.box1{
+   background-color: rgba(84, 144, 245, 0.2);
+}
+.box2{
+    background-color: #C6E4D6;
+}
+.box3{
+    background-color: #F7EBCF;
+}
+.box1, .box2, .box3{
+    width: 410px;
+    padding: 33px 32px;
+    border-radius: 16px;
+}
+.box-heading{
+font-weight: bold;
+font-size: 20px;
+}
+.box-text, .lm1, .lm2, .lm3, .box-heading{
+margin-top: 24px;
+}
+.lm1{
+ background-color: #5490F5;
+ padding: 11px 20px;
+}
+.lm2{
+background-color: #09A15C;
+padding: 11px 20px;
+}
+.lm3{
+background-color: #FFC239;
+padding: 11px 20px;
+}
+.lm1, .lm2, .lm3{
+    border-radius: 8px;
+    border: none;
 }
