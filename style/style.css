@@ -203,3 +203,24 @@ input{
     justify-content: center;
     margin-bottom: 50px;
 }
+/* quote */
+.quote{
+    margin-top: 45px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.quote-para{
+    padding: 35px 24px;
+}
+.younus{
+    margin-bottom: 12px;
+}
+.yname{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.ypost{
+    font-weight: 500;
+}
